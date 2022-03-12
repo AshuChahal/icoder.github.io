@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>API</title>
+    <link rel="stylesheet" href="dec.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand border border-danger bg-info rounded-pill href=" #">icoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active me-md-3" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-md-3" href="api.html">API</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-md-3" href="index.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success rounded-pill" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <P class="app">An application programming interface (API) is a connection between computers or between computer
+        programs. It is
+        a type of software interface, offering a service to other pieces of software.[1] A document or standard that
+        describes how to build or use such a connection or interface is called an API specification. A computer system
+        that meets this standard is said to implement or expose an API. The term API may refer either to the
+        specification or to the implementation.
+
+    </P>
+    <p class="app"> <strong>Libraries and frameworks</strong><br>
+        The interface to a software library is one type of API. The API describes and prescribes the "expected behavior"
+        (a specification) while the library is an "actual implementation" of this set of rules.
+
+        A single API can have multiple implementations (or none, being abstract) in the form of different libraries that
+        share the same programming interface.
+
+        The separation of the API from its implementation can allow programs written in one language to use a library
+        written in another. For example, because Scala and Java compile to compatible bytecode, Scala developers can
+        take advantage of any Java API.[14]
+
+        API use can vary depending on the type of programming language involved. An API for a procedural language such
+        as Lua could consist primarily of basic routines to execute code, manipulate data or handle errors while an API
+        for an object-oriented language, such as Java, would provide a specification of classes and its class
+        methods.[15][16] Hyrum's law [17] states that "With a sufficient number of users of an API, it does not matter
+        what you promise in the contract: all observable behaviors of your system will be depended on by somebody."
+        Meanwhile, several studies show that most applications that use an API tend to use a small part of the API.[18]
+        API use actually varies depending on the number of users, as well as on the popularity of the API.[19]
+
+        Language bindings are also APIs. By mapping the features and capabilities of one language to an interface
+        implemented in another language, a language binding allows a library or service written in one language to be
+        used when developing in another language.[20]
+
+        Tools such as SWIG and F2PY, a Fortran-to-Python interface generator, facilitate the creation of such
+        interfaces.[21]
+
+        An API can also be related to a software framework: a framework can be based on several libraries implementing
+        several APIs, but unlike the normal use of an API, the access to the behavior built into the framework is
+        mediated by extending its content with new classes plugged into the framework itself.
+
+        Moreover, the overall program flow of control can be out of the control of the caller and in the framework's
+        hands by inversion of control or a similar. <br>
+        <br>
+
+        <strong>Operating systems</strong> <br>
+        An API can specify the interface between an application and the operating system.[24] POSIX, for example,
+        specifies a set of common APIs that aim to enable an application written for a POSIX conformant operating system
+        to be compiled for another POSIX conformant operating system.
+
+        Linux and Berkeley Software Distribution are examples of operating systems that implement the POSIX APIs.[25]
+
+        Microsoft has shown a strong commitment to a backward-compatible API, particularly within its Windows API
+        (Win32) library, so older applications may run on newer versions of Windows using an executable-specific setting
+        called "Compatibility Mode".[26]
+
+        An API differs from an application binary interface (ABI) in that an API is source code based while an ABI is
+        binary based. For instance, POSIX provides APIs while the Linux Standard Base provides an ABI.[27][28] <br>
+
+        <strong> Remote APIs</strong> <br>
+        Remote APIs allow developers to manipulate remote resources through protocols, specific standards for
+        communication that allow different technologies to work together, regardless of language or platform. For
+        example, the Java Database Connectivity API allows developers to query many different types of databases with
+        the same set of functions, while the Java remote method invocation API uses the Java Remote Method Protocol to
+        allow invocation of functions that operate remotely but appear local to the developer.[29][30]
+
+        Therefore, remote APIs are useful in maintaining the object abstraction in object-oriented programming; a method
+        call, executed locally on a proxy object, invokes the corresponding method on the remote object, using the
+        remoting protocol, and acquires the result to be used locally as a return value. <br>
+
+        A modification of the proxy object will also result in a corresponding modification of the remote object.[31]
+        <br>
+
+        <strong> Web APIs </strong> <br>
+        Main article: Web API <br>
+        Web APIs are the defined interfaces through which interactions happen between an enterprise and applications
+        that use its assets, which also is a service-level agreement (SLA) to specify the functional provider and expose
+        the service path or URL for its API users. An API approach is an architectural approach that revolves around
+        providing a program interface to a set of services to different applications serving different types of
+        consumers.[32]
+
+        When used in the context of web development, an API is typically defined as a set of specifications, such as
+        Hypertext Transfer Protocol (HTTP) request messages, along with a definition of the structure of response
+        messages, usually in an Extensible Markup Language (XML) or JavaScript Object Notation (JSON) format. An example
+        might be a shipping company API that can be added to an eCommerce-focused website to facilitate ordering
+        shipping services and automatically include current shipping rates, without the site developer having to enter
+        the shipper's rate table into a web database. While "web API" historically has been virtually synonymous with
+        web service, the recent trend (so-called Web 2.0) has been moving away from Simple Object Access Protocol (SOAP)
+        based web services and service-oriented architecture (SOA) towards more direct representational state transfer
+        (REST) style web resources and resource-oriented architecture (ROA).[33] Part of this trend is related to the
+        Semantic Web movement toward Resource Description Framework (RDF), a concept to promote web-based ontology
+        engineering technologies. Web APIs allow the combination of multiple APIs into new applications known as
+        mashups.[34] In the social media space, web APIs have allowed web communities to facilitate sharing content and
+        data between communities and applications. In this way, content that is created in one place dynamically can be
+        posted and updated to multiple locations on the web.[35] For example, Twitter's REST API allows developers to
+        access core Twitter data and the Search API provides methods for developers to interact with Twitter Search and
+        trends data.[36]
+
+    </p>
+    <hr>
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="containerr">
+      <span class="text-muted">&copy;copyright 2022-2024 All right reserved</span>
+    </div>
+    <p>Follow us on</p>
+    <a href="http://instagram.com">Instagram</a>
+    <i class="bi bi-instagram"></i>
+    <p class="cha">Designed and Maintain By &nbsp; <u><i>ASHU CHAHAL</i></u> </p>
+
+  </footer>
+</body>
+
+</html>
